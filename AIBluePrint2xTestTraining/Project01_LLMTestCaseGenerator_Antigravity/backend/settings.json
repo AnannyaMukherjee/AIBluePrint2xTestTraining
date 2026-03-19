@@ -1,0 +1,21 @@
+{
+  "ollama": {
+    "baseUrl": "http://localhost:11434"
+  },
+  "lmStudio": {
+    "baseUrl": "http://localhost:1234/v1"
+  },
+  "grok": {
+    "apiKey": ""
+  },
+  "openai": {
+    "apiKey": ""
+  },
+  "claude": {
+    "apiKey": ""
+  },
+  "gemini": {
+    "apiKey": ""
+  },
+  "activeProvider": "ollama"
+}

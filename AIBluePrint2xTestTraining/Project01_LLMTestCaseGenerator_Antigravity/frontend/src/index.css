@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0f1115;
+    color: #e0e0e0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .jira-panel {
+     background-color: #1d2127;
+     border: 1px solid #2d3139;
+     border-radius: 0.5rem;
+     padding: 1rem;
+  }
+
+  .jira-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .jira-table th, .jira-table td {
+    border: 1px solid #2d3139;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .jira-table th {
+    background-color: #252a31;
+    font-weight: 600;
+    color: #a0aab5;
+  }
+}
